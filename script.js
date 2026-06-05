@@ -1,40 +1,40 @@
 const uiTranslations = {
     ar: {
-        mainTitle: "إيطاليا التفاعلية",
-        subTitle: "دليل السفر والملاحة الذكية 2026",
-        secNav: "تخطيط الرحلة والمسارات",
-        secExplore: "استكشف المدن والبحث",
-        lblFrom: "من:", lblTo: "إلى:", lblMode: "وسيلة التنقل:",
-        btnRoute: "ارسم المسار واحسب السعر",
-        btnFree: "بحث",
-        btnReset: "إعادة التعيين",
-        btnGeo: "موقعي",
-        placeholder: "ابحث عن أي مكان في العالم...",
-        themeLight: "مظهر نهاري",
-        themeDark: "مظهر ليلي",
-        titleGeo: "📍 الوصف الجغرافي",
-        titleLandmarks: "🏛️ أهم المعالم",
-        titleFoodHeader: "🍕 المطاعم والمطبخ المحلي",
-        titleFoodBody: "🍽️ الوجبة المقترحة",
-        titleActivities: "🛶 الأنشطة والتجارب",
-        titleHotels2: "🏨 فنادق اقتصادية (2 نجوم)",
-        titleHotels3: "🏨 فنادق متميزة (3 نجوم)",
-        alertMatch: "محطة القيام والوصول متطابقتان!",
-        alertNoFree: "الرجاء كتابة اسم مكان للبحث عنه!",
-        alertFreeErr: "عذراً، لم نتمكن من العثور على هذا الموقع.",
-        loadingRoute: "جاري حساب المسار...",
-        loadingSearch: "جاري البحث...",
-        errorRoute: "تعذر رسم المسار، يرجى التحقق من الاتصال والمحاولة لاحقاً.",
-        errorSearch: "تعذر البحث، يرجى المحاولة لاحقاً.",
-        errorGeo: "تعذر تحديد موقعك، يرجى التأكد من تفعيل خدمة الموقع الجغرافي.",
-        successGeo: "تم تحديد موقعك بنجاح!",
-        modeCar: "🚗 سيارة",
-        modeWalk: "🚶 مشي",
-        modeBike: "🚲 دراجة",
-        routeLabelCar: "مسار القيادة الفعلي",
-        routeLabelWalk: "مسار المشي",
-        routeLabelBike: "مسار الدراجة",
-        closeBtn: "إغلاق"
+        mainTitle: "Ø¥ÙŠØ·Ø§Ù„ÙŠØ§ Ø§Ù„ØªÙØ§Ø¹Ù„ÙŠØ©",
+        subTitle: "Ø¯Ù„ÙŠÙ„ Ø§Ù„Ø³ÙØ± ÙˆØ§Ù„Ù…Ù„Ø§Ø­Ø© Ø§Ù„Ø°ÙƒÙŠØ© 2026",
+        secNav: "ØªØ®Ø·ÙŠØ· Ø§Ù„Ø±Ø­Ù„Ø© ÙˆØ§Ù„Ù…Ø³Ø§Ø±Ø§Øª",
+        secExplore: "Ø§Ø³ØªÙƒØ´Ù Ø§Ù„Ù…Ø¯Ù† ÙˆØ§Ù„Ø¨Ø­Ø«",
+        lblFrom: "Ù…Ù†:", lblTo: "Ø¥Ù„Ù‰:", lblMode: "ÙˆØ³ÙŠÙ„Ø© Ø§Ù„ØªÙ†Ù‚Ù„:",
+        btnRoute: "Ø§Ø±Ø³Ù… Ø§Ù„Ù…Ø³Ø§Ø± ÙˆØ§Ø­Ø³Ø¨ Ø§Ù„Ø³Ø¹Ø±",
+        btnFree: "Ø¨Ø­Ø«",
+        btnReset: "Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„ØªØ¹ÙŠÙŠÙ†",
+        btnGeo: "Ù…ÙˆÙ‚Ø¹ÙŠ",
+        placeholder: "Ø§Ø¨Ø­Ø« Ø¹Ù† Ø£ÙŠ Ù…ÙƒØ§Ù† ÙÙŠ Ø§Ù„Ø¹Ø§Ù„Ù…...",
+        themeLight: "Ù…Ø¸Ù‡Ø± Ù†Ù‡Ø§Ø±ÙŠ",
+        themeDark: "Ù…Ø¸Ù‡Ø± Ù„ÙŠÙ„ÙŠ",
+        titleGeo: "ðŸ“ Ø§Ù„ÙˆØµÙ Ø§Ù„Ø¬ØºØ±Ø§ÙÙŠ",
+        titleLandmarks: "ðŸ›ï¸ Ø£Ù‡Ù… Ø§Ù„Ù…Ø¹Ø§Ù„Ù…",
+        titleFoodHeader: "ðŸ• Ø§Ù„Ù…Ø·Ø§Ø¹Ù… ÙˆØ§Ù„Ù…Ø·Ø¨Ø® Ø§Ù„Ù…Ø­Ù„ÙŠ",
+        titleFoodBody: "ðŸ½ï¸ Ø§Ù„ÙˆØ¬Ø¨Ø© Ø§Ù„Ù…Ù‚ØªØ±Ø­Ø©",
+        titleActivities: "ðŸ›¶ Ø§Ù„Ø£Ù†Ø´Ø·Ø© ÙˆØ§Ù„ØªØ¬Ø§Ø±Ø¨",
+        titleHotels2: "ðŸ¨ ÙÙ†Ø§Ø¯Ù‚ Ø§Ù‚ØªØµØ§Ø¯ÙŠØ© (2 Ù†Ø¬ÙˆÙ…)",
+        titleHotels3: "ðŸ¨ ÙÙ†Ø§Ø¯Ù‚ Ù…ØªÙ…ÙŠØ²Ø© (3 Ù†Ø¬ÙˆÙ…)",
+        alertMatch: "Ù…Ø­Ø·Ø© Ø§Ù„Ù‚ÙŠØ§Ù… ÙˆØ§Ù„ÙˆØµÙˆÙ„ Ù…ØªØ·Ø§Ø¨Ù‚ØªØ§Ù†!",
+        alertNoFree: "Ø§Ù„Ø±Ø¬Ø§Ø¡ ÙƒØªØ§Ø¨Ø© Ø§Ø³Ù… Ù…ÙƒØ§Ù† Ù„Ù„Ø¨Ø­Ø« Ø¹Ù†Ù‡!",
+        alertFreeErr: "Ø¹Ø°Ø±Ø§Ù‹ØŒ Ù„Ù… Ù†ØªÙ…ÙƒÙ† Ù…Ù† Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ù‡Ø°Ø§ Ø§Ù„Ù…ÙˆÙ‚Ø¹.",
+        loadingRoute: "Ø¬Ø§Ø±ÙŠ Ø­Ø³Ø§Ø¨ Ø§Ù„Ù…Ø³Ø§Ø±...",
+        loadingSearch: "Ø¬Ø§Ø±ÙŠ Ø§Ù„Ø¨Ø­Ø«...",
+        errorRoute: "ØªØ¹Ø°Ø± Ø±Ø³Ù… Ø§Ù„Ù…Ø³Ø§Ø±ØŒ ÙŠØ±Ø¬Ù‰ Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø§Ù„Ø§ØªØµØ§Ù„ ÙˆØ§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù„Ø§Ø­Ù‚Ø§Ù‹.",
+        errorSearch: "ØªØ¹Ø°Ø± Ø§Ù„Ø¨Ø­Ø«ØŒ ÙŠØ±Ø¬Ù‰ Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù„Ø§Ø­Ù‚Ø§Ù‹.",
+        errorGeo: "ØªØ¹Ø°Ø± ØªØ­Ø¯ÙŠØ¯ Ù…ÙˆÙ‚Ø¹ÙƒØŒ ÙŠØ±Ø¬Ù‰ Ø§Ù„ØªØ£ÙƒØ¯ Ù…Ù† ØªÙØ¹ÙŠÙ„ Ø®Ø¯Ù…Ø© Ø§Ù„Ù…ÙˆÙ‚Ø¹ Ø§Ù„Ø¬ØºØ±Ø§ÙÙŠ.",
+        successGeo: "ØªÙ… ØªØ­Ø¯ÙŠØ¯ Ù…ÙˆÙ‚Ø¹Ùƒ Ø¨Ù†Ø¬Ø§Ø­!",
+        modeCar: "ðŸš— Ø³ÙŠØ§Ø±Ø©",
+        modeWalk: "ðŸš¶ Ù…Ø´ÙŠ",
+        modeBike: "ðŸš² Ø¯Ø±Ø§Ø¬Ø©",
+        routeLabelCar: "Ù…Ø³Ø§Ø± Ø§Ù„Ù‚ÙŠØ§Ø¯Ø© Ø§Ù„ÙØ¹Ù„ÙŠ",
+        routeLabelWalk: "Ù…Ø³Ø§Ø± Ø§Ù„Ù…Ø´ÙŠ",
+        routeLabelBike: "Ù…Ø³Ø§Ø± Ø§Ù„Ø¯Ø±Ø§Ø¬Ø©",
+        closeBtn: "Ø¥ØºÙ„Ø§Ù‚"
     },
     en: {
         mainTitle: "Interactive Italy",
@@ -49,13 +49,13 @@ const uiTranslations = {
         placeholder: "Search for any place worldwide...",
         themeLight: "Light Mode",
         themeDark: "Dark Mode",
-        titleGeo: "📍 Geo Description",
-        titleLandmarks: "🏛️ Top Landmarks",
-        titleFoodHeader: "🍕 Restaurants & Local Cuisine",
-        titleFoodBody: "🍽️ Suggested Dish",
-        titleActivities: "🛶 Activities & Experiences",
-        titleHotels2: "🏨 Budget Hotels (2 Stars)",
-        titleHotels3: "🏨 Premium Hotels (3 Stars)",
+        titleGeo: "ðŸ“ Geo Description",
+        titleLandmarks: "ðŸ›ï¸ Top Landmarks",
+        titleFoodHeader: "ðŸ• Restaurants & Local Cuisine",
+        titleFoodBody: "ðŸ½ï¸ Suggested Dish",
+        titleActivities: "ðŸ›¶ Activities & Experiences",
+        titleHotels2: "ðŸ¨ Budget Hotels (2 Stars)",
+        titleHotels3: "ðŸ¨ Premium Hotels (3 Stars)",
         alertMatch: "Departure and destination cities are identical!",
         alertNoFree: "Please type a location name to search!",
         alertFreeErr: "Sorry, could not find this location.",
@@ -65,9 +65,9 @@ const uiTranslations = {
         errorSearch: "Search failed. Please try again later.",
         errorGeo: "Could not determine your location. Please enable location services.",
         successGeo: "Your location has been identified successfully!",
-        modeCar: "🚗 Car",
-        modeWalk: "🚶 Walking",
-        modeBike: "🚲 Cycling",
+        modeCar: "ðŸš— Car",
+        modeWalk: "ðŸš¶ Walking",
+        modeBike: "ðŸš² Cycling",
         routeLabelCar: "Driving Route",
         routeLabelWalk: "Walking Route",
         routeLabelBike: "Cycling Route",
@@ -76,15 +76,15 @@ const uiTranslations = {
 };
 
 const transportModes = {
-    'driving-car': { icon: 'fa-car', labelAr: 'سيارة', labelEn: 'Car' },
-    'foot-walking': { icon: 'fa-person-walking', labelAr: 'مشي', labelEn: 'Walking' },
-    'cycling-regular': { icon: 'fa-bicycle', labelAr: 'دراجة', labelEn: 'Cycling' }
+    'driving-car': { icon: 'fa-car', labelAr: 'Ø³ÙŠØ§Ø±Ø©', labelEn: 'Car' },
+    'foot-walking': { icon: 'fa-person-walking', labelAr: 'Ù…Ø´ÙŠ', labelEn: 'Walking' },
+    'cycling-regular': { icon: 'fa-bicycle', labelAr: 'Ø¯Ø±Ø§Ø¬Ø©', labelEn: 'Cycling' }
 };
 
 const fallbackData = [
     {
         "id": "rome",
-        "name": {"ar": "روما", "en": "Rome"},
+        "name": {"ar": "Ø±ÙˆÙ…Ø§", "en": "Rome"},
         "lat": 41.9028,
         "lng": 12.4964,
         "images": [
@@ -93,19 +93,19 @@ const fallbackData = [
             "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=600&q=80"
         ],
         "province": {
-            "ar": "إقليم لاتسيو - عاصمة إيطاليا التاريخية على ضفاف نهر التيبر.",
+            "ar": "Ø¥Ù‚Ù„ÙŠÙ… Ù„Ø§ØªØ³ÙŠÙˆ - Ø¹Ø§ØµÙ…Ø© Ø¥ÙŠØ·Ø§Ù„ÙŠØ§ Ø§Ù„ØªØ§Ø±ÙŠØ®ÙŠØ© Ø¹Ù„Ù‰ Ø¶ÙØ§Ù Ù†Ù‡Ø± Ø§Ù„ØªÙŠØ¨Ø±.",
             "en": "Lazio Region - Italy's historic capital on the Tiber River."
         },
         "landmarks": {
-            "ar": "الكولوسيوم، نافورة تريفي، ودولة الفاتيكان.",
+            "ar": "Ø§Ù„ÙƒÙˆÙ„ÙˆØ³ÙŠÙˆÙ…ØŒ Ù†Ø§ÙÙˆØ±Ø© ØªØ±ÙŠÙÙŠØŒ ÙˆØ¯ÙˆÙ„Ø© Ø§Ù„ÙØ§ØªÙŠÙƒØ§Ù†.",
             "en": "The Colosseum, Trevi Fountain, and Vatican City."
         },
         "food": {
-            "ar": "مكرونة كاربونارا الأصلية في Osteria da Fortunata.",
+            "ar": "Ù…ÙƒØ±ÙˆÙ†Ø© ÙƒØ§Ø±Ø¨ÙˆÙ†Ø§Ø±Ø§ Ø§Ù„Ø£ØµÙ„ÙŠØ© ÙÙŠ Osteria da Fortunata.",
             "en": "Authentic Pasta Carbonara at Osteria da Fortunata."
         },
         "science": {
-            "ar": "تضم روما أقدم أنظمة قنوات المياه الممتدة منذ العهد الروماني.",
+            "ar": "ØªØ¶Ù… Ø±ÙˆÙ…Ø§ Ø£Ù‚Ø¯Ù… Ø£Ù†Ø¸Ù…Ø© Ù‚Ù†ÙˆØ§Øª Ø§Ù„Ù…ÙŠØ§Ù‡ Ø§Ù„Ù…Ù…ØªØ¯Ø© Ù…Ù†Ø° Ø§Ù„Ø¹Ù‡Ø¯ Ø§Ù„Ø±ÙˆÙ…Ø§Ù†ÙŠ.",
             "en": "Rome features ancient active underground aqueduct systems."
         },
         "yt": {
@@ -114,18 +114,18 @@ const fallbackData = [
         },
         "station": {"name": "Roma Termini", "lat": 41.9009, "lng": 12.5020},
         "activities": [
-            {"name": {"ar": "جولة إرشادية داخل الكولوسيوم والممرات السفلية", "en": "Guided tour inside the Colosseum tunnels"}, "price": "35€"}
+            {"name": {"ar": "Ø¬ÙˆÙ„Ø© Ø¥Ø±Ø´Ø§Ø¯ÙŠØ© Ø¯Ø§Ø®Ù„ Ø§Ù„ÙƒÙˆÙ„ÙˆØ³ÙŠÙˆÙ… ÙˆØ§Ù„Ù…Ù…Ø±Ø§Øª Ø§Ù„Ø³ÙÙ„ÙŠØ©", "en": "Guided tour inside the Colosseum tunnels"}, "price": "35â‚¬"}
         ],
         "hotels2": [
-            {"name": "Hotel Termini", "lat": 41.9015, "lng": 12.5035, "price": "65€", "yt": "https://www.youtube.com/results?search_query=Hotel+Termini+Rome"}
+            {"name": "Hotel Termini", "lat": 41.9015, "lng": 12.5035, "price": "65â‚¬", "yt": "https://www.youtube.com/results?search_query=Hotel+Termini+Rome"}
         ],
         "hotels3": [
-            {"name": "IQ Hotel Roma", "lat": 41.9010, "lng": 12.4938, "price": "140€", "yt": "https://www.youtube.com/results?search_query=IQ+Hotel+Roma"}
+            {"name": "IQ Hotel Roma", "lat": 41.9010, "lng": 12.4938, "price": "140â‚¬", "yt": "https://www.youtube.com/results?search_query=IQ+Hotel+Roma"}
         ]
     },
     {
         "id": "milan",
-        "name": {"ar": "ميلان", "en": "Milan"},
+        "name": {"ar": "Ù…ÙŠÙ„Ø§Ù†", "en": "Milan"},
         "lat": 45.4642,
         "lng": 9.1900,
         "images": [
@@ -134,19 +134,19 @@ const fallbackData = [
             "https://images.unsplash.com/photo-1543837173-6c26bc89937b?auto=format&fit=crop&w=600&q=80"
         ],
         "province": {
-            "ar": "إقليم لومبارديا - عاصمة الموضة والمال في شمال إيطاليا.",
+            "ar": "Ø¥Ù‚Ù„ÙŠÙ… Ù„ÙˆÙ…Ø¨Ø§Ø±Ø¯ÙŠØ§ - Ø¹Ø§ØµÙ…Ø© Ø§Ù„Ù…ÙˆØ¶Ø© ÙˆØ§Ù„Ù…Ø§Ù„ ÙÙŠ Ø´Ù…Ø§Ù„ Ø¥ÙŠØ·Ø§Ù„ÙŠØ§.",
             "en": "Lombardy Region - The capital of fashion and finance in northern Italy."
         },
         "landmarks": {
-            "ar": "كاتدرائية ميلانو (Duomo) ورواق غاليريا الشهير.",
+            "ar": "ÙƒØ§ØªØ¯Ø±Ø§Ø¦ÙŠØ© Ù…ÙŠÙ„Ø§Ù†Ùˆ (Duomo) ÙˆØ±ÙˆØ§Ù‚ ØºØ§Ù„ÙŠØ±ÙŠØ§ Ø§Ù„Ø´Ù‡ÙŠØ±.",
             "en": "Duomo di Milano and Galleria Vittorio Emanuele II."
         },
         "food": {
-            "ar": "ريزوتو الزعفران الميلاني الأصيل في Trattoria Milanese.",
+            "ar": "Ø±ÙŠØ²ÙˆØªÙˆ Ø§Ù„Ø²Ø¹ÙØ±Ø§Ù† Ø§Ù„Ù…ÙŠÙ„Ø§Ù†ÙŠ Ø§Ù„Ø£ØµÙŠÙ„ ÙÙŠ Trattoria Milanese.",
             "en": "Traditional Saffron Risotto at Trattoria Milanese."
         },
         "science": {
-            "ar": "تحتوي على نظام قنوات Navigli المائي الذي صممه ليوناردو دا فينشي.",
+            "ar": "ØªØ­ØªÙˆÙŠ Ø¹Ù„Ù‰ Ù†Ø¸Ø§Ù… Ù‚Ù†ÙˆØ§Øª Navigli Ø§Ù„Ù…Ø§Ø¦ÙŠ Ø§Ù„Ø°ÙŠ ØµÙ…Ù…Ù‡ Ù„ÙŠÙˆÙ†Ø§Ø±Ø¯Ùˆ Ø¯Ø§ ÙÙŠÙ†Ø´ÙŠ.",
             "en": "Features the Navigli canals engineered by Leonardo da Vinci."
         },
         "yt": {
@@ -155,18 +155,18 @@ const fallbackData = [
         },
         "station": {"name": "Milano Centrale", "lat": 45.4858, "lng": 9.2037},
         "activities": [
-            {"name": {"ar": "صعود أسطح كاتدرائية الدومو البانورامية", "en": "Rooftop walk on Duomo di Milano"}, "price": "15€"}
+            {"name": {"ar": "ØµØ¹ÙˆØ¯ Ø£Ø³Ø·Ø­ ÙƒØ§ØªØ¯Ø±Ø§Ø¦ÙŠØ© Ø§Ù„Ø¯ÙˆÙ…Ùˆ Ø§Ù„Ø¨Ø§Ù†ÙˆØ±Ø§Ù…ÙŠØ©", "en": "Rooftop walk on Duomo di Milano"}, "price": "15â‚¬"}
         ],
         "hotels2": [
-            {"name": "Hotel Central Station", "lat": 45.4842, "lng": 9.2012, "price": "70€", "yt": "https://www.youtube.com/results?search_query=Hotel+Central+Station+Milan"}
+            {"name": "Hotel Central Station", "lat": 45.4842, "lng": 9.2012, "price": "70â‚¬", "yt": "https://www.youtube.com/results?search_query=Hotel+Central+Station+Milan"}
         ],
         "hotels3": [
-            {"name": "Starhotels Anderson", "lat": 45.4851, "lng": 9.2051, "price": "125€", "yt": "https://www.youtube.com/results?search_query=Starhotels+Anderson+Milan"}
+            {"name": "Starhotels Anderson", "lat": 45.4851, "lng": 9.2051, "price": "125â‚¬", "yt": "https://www.youtube.com/results?search_query=Starhotels+Anderson+Milan"}
         ]
     },
     {
         "id": "florence",
-        "name": {"ar": "فلورنسا", "en": "Florence"},
+        "name": {"ar": "ÙÙ„ÙˆØ±Ù†Ø³Ø§", "en": "Florence"},
         "lat": 43.7696,
         "lng": 11.2558,
         "images": [
@@ -175,19 +175,19 @@ const fallbackData = [
             "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=600&q=80"
         ],
         "province": {
-            "ar": "إقليم توسكانا - مهد عصر النهضة والفنون العالمية بجانب نهر أرنو.",
+            "ar": "Ø¥Ù‚Ù„ÙŠÙ… ØªÙˆØ³ÙƒØ§Ù†Ø§ - Ù…Ù‡Ø¯ Ø¹ØµØ± Ø§Ù„Ù†Ù‡Ø¶Ø© ÙˆØ§Ù„ÙÙ†ÙˆÙ† Ø§Ù„Ø¹Ø§Ù„Ù…ÙŠØ© Ø¨Ø¬Ø§Ù†Ø¨ Ù†Ù‡Ø± Ø£Ø±Ù†Ùˆ.",
             "en": "Tuscany Region - The cradle of the Renaissance by the Arno River."
         },
         "landmarks": {
-            "ar": "كاتدرائية سانتا ماريا وجسر بونتي فيكيو الأثري.",
+            "ar": "ÙƒØ§ØªØ¯Ø±Ø§Ø¦ÙŠØ© Ø³Ø§Ù†ØªØ§ Ù…Ø§Ø±ÙŠØ§ ÙˆØ¬Ø³Ø± Ø¨ÙˆÙ†ØªÙŠ ÙÙŠÙƒÙŠÙˆ Ø§Ù„Ø£Ø«Ø±ÙŠ.",
             "en": "Santa Maria del Fiore and Ponte Vecchio bridge."
         },
         "food": {
-            "ar": "شطيرة اللامبريدوتو الشعبية في كشك Da Nerbone التاريخي.",
+            "ar": "Ø´Ø·ÙŠØ±Ø© Ø§Ù„Ù„Ø§Ù…Ø¨Ø±ÙŠØ¯ÙˆØªÙˆ Ø§Ù„Ø´Ø¹Ø¨ÙŠØ© ÙÙŠ ÙƒØ´Ùƒ Da Nerbone Ø§Ù„ØªØ§Ø±ÙŠØ®ÙŠ.",
             "en": "Legendary Lampredotto sandwich at Da Nerbone."
         },
         "science": {
-            "ar": "قبة برونليسكي في كاتدرائيتها هي أكبر قبة بنائية طوبية في العالم.",
+            "ar": "Ù‚Ø¨Ø© Ø¨Ø±ÙˆÙ†Ù„ÙŠØ³ÙƒÙŠ ÙÙŠ ÙƒØ§ØªØ¯Ø±Ø§Ø¦ÙŠØªÙ‡Ø§ Ù‡ÙŠ Ø£ÙƒØ¨Ø± Ù‚Ø¨Ø© Ø¨Ù†Ø§Ø¦ÙŠØ© Ø·ÙˆØ¨ÙŠØ© ÙÙŠ Ø§Ù„Ø¹Ø§Ù„Ù….",
             "en": "Brunelleschi's Dome is the world's largest masonry dome."
         },
         "yt": {
@@ -196,18 +196,18 @@ const fallbackData = [
         },
         "station": {"name": "Firenze SMN", "lat": 43.7766, "lng": 11.2479},
         "activities": [
-            {"name": {"ar": "مشاهدة تمثال داود الأصلي في معرض الأكاديمية", "en": "See Michelangelo's original David statue"}, "price": "22€"}
+            {"name": {"ar": "Ù…Ø´Ø§Ù‡Ø¯Ø© ØªÙ…Ø«Ø§Ù„ Ø¯Ø§ÙˆØ¯ Ø§Ù„Ø£ØµÙ„ÙŠ ÙÙŠ Ù…Ø¹Ø±Ø¶ Ø§Ù„Ø£ÙƒØ§Ø¯ÙŠÙ…ÙŠØ©", "en": "See Michelangelo's original David statue"}, "price": "22â‚¬"}
         ],
         "hotels2": [
-            {"name": "Hotel Sampaoli", "lat": 43.7791, "lng": 11.2581, "price": "60€", "yt": "https://www.youtube.com/results?search_query=Hotel+Sampaoli+Florence"}
+            {"name": "Hotel Sampaoli", "lat": 43.7791, "lng": 11.2581, "price": "60â‚¬", "yt": "https://www.youtube.com/results?search_query=Hotel+Sampaoli+Florence"}
         ],
         "hotels3": [
-            {"name": "c-hotels Ambasciatori", "lat": 43.7758, "lng": 11.2465, "price": "115€", "yt": "https://www.youtube.com/results?search_query=C+Hotels+Ambasciatori+Florence"}
+            {"name": "c-hotels Ambasciatori", "lat": 43.7758, "lng": 11.2465, "price": "115â‚¬", "yt": "https://www.youtube.com/results?search_query=C+Hotels+Ambasciatori+Florence"}
         ]
     },
     {
         "id": "venice",
-        "name": {"ar": "البندقية", "en": "Venice"},
+        "name": {"ar": "Ø§Ù„Ø¨Ù†Ø¯Ù‚ÙŠØ©", "en": "Venice"},
         "lat": 45.4408,
         "lng": 12.3155,
         "images": [
@@ -216,19 +216,19 @@ const fallbackData = [
             "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=600&q=80"
         ],
         "province": {
-            "ar": "إقليم فينيتو - المدينة المائية العائمة المبنية على 118 جزيرة.",
+            "ar": "Ø¥Ù‚Ù„ÙŠÙ… ÙÙŠÙ†ÙŠØªÙˆ - Ø§Ù„Ù…Ø¯ÙŠÙ†Ø© Ø§Ù„Ù…Ø§Ø¦ÙŠØ© Ø§Ù„Ø¹Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ø¨Ù†ÙŠØ© Ø¹Ù„Ù‰ 118 Ø¬Ø²ÙŠØ±Ø©.",
             "en": "Veneto Region - The floating city built on 118 small islands."
         },
         "landmarks": {
-            "ar": "ساحة سان ماركو، القناة الكبرى، وجسر ريالتو الشهير.",
+            "ar": "Ø³Ø§Ø­Ø© Ø³Ø§Ù† Ù…Ø§Ø±ÙƒÙˆØŒ Ø§Ù„Ù‚Ù†Ø§Ø© Ø§Ù„ÙƒØ¨Ø±Ù‰ØŒ ÙˆØ¬Ø³Ø± Ø±ÙŠØ§Ù„ØªÙˆ Ø§Ù„Ø´Ù‡ÙŠØ±.",
             "en": "St. Mark's Square, Grand Canal, and Rialto Bridge."
         },
         "food": {
-            "ar": "مقبلات شيكيتي البحرية اللذيذة في Cantina Do Mori الشهير.",
+            "ar": "Ù…Ù‚Ø¨Ù„Ø§Øª Ø´ÙŠÙƒÙŠØªÙŠ Ø§Ù„Ø¨Ø­Ø±ÙŠØ© Ø§Ù„Ù„Ø°ÙŠØ°Ø© ÙÙŠ Cantina Do Mori Ø§Ù„Ø´Ù‡ÙŠØ±.",
             "en": "Delicious Cicchetti tapas at Cantina Do Mori."
         },
         "science": {
-            "ar": "المدينة ترتكز فوق ملايين الجذوع الخشبية الغاطسة المقاومة للتعفن.",
+            "ar": "Ø§Ù„Ù…Ø¯ÙŠÙ†Ø© ØªØ±ØªÙƒØ² ÙÙˆÙ‚ Ù…Ù„Ø§ÙŠÙŠÙ† Ø§Ù„Ø¬Ø°ÙˆØ¹ Ø§Ù„Ø®Ø´Ø¨ÙŠØ© Ø§Ù„ØºØ§Ø·Ø³Ø© Ø§Ù„Ù…Ù‚Ø§ÙˆÙ…Ø© Ù„Ù„ØªØ¹ÙÙ†.",
             "en": "The entire city rests on ancient rot-proof wooden piles."
         },
         "yt": {
@@ -237,18 +237,18 @@ const fallbackData = [
         },
         "station": {"name": "Venezia Santa Lucia", "lat": 45.4411, "lng": 12.3211},
         "activities": [
-            {"name": {"ar": "جولة كلاسيكية رومانسية في قارب الجندول", "en": "Romantic Gondola ride across canals"}, "price": "33€"}
+            {"name": {"ar": "Ø¬ÙˆÙ„Ø© ÙƒÙ„Ø§Ø³ÙŠÙƒÙŠØ© Ø±ÙˆÙ…Ø§Ù†Ø³ÙŠØ© ÙÙŠ Ù‚Ø§Ø±Ø¨ Ø§Ù„Ø¬Ù†Ø¯ÙˆÙ„", "en": "Romantic Gondola ride across canals"}, "price": "33â‚¬"}
         ],
         "hotels2": [
-            {"name": "Hotel Ungaro", "lat": 45.4851, "lng": 12.2390, "price": "55€", "yt": "https://www.youtube.com/results?search_query=Hotel+Ungaro+Venice"}
+            {"name": "Hotel Ungaro", "lat": 45.4851, "lng": 12.2390, "price": "55â‚¬", "yt": "https://www.youtube.com/results?search_query=Hotel+Ungaro+Venice"}
         ],
         "hotels3": [
-            {"name": "Hotel Splendid", "lat": 45.4358, "lng": 12.3372, "price": "160€", "yt": "https://www.youtube.com/results?search_query=Hotel+Splendid+Venice"}
+            {"name": "Hotel Splendid", "lat": 45.4358, "lng": 12.3372, "price": "160â‚¬", "yt": "https://www.youtube.com/results?search_query=Hotel+Splendid+Venice"}
         ]
     },
     {
         "id": "naples",
-        "name": {"ar": "نابولي", "en": "Naples"},
+        "name": {"ar": "Ù†Ø§Ø¨ÙˆÙ„ÙŠ", "en": "Naples"},
         "lat": 40.8518,
         "lng": 14.2681,
         "images": [
@@ -257,19 +257,19 @@ const fallbackData = [
             "https://images.unsplash.com/photo-1614531189441-df0711910ef6?auto=format&fit=crop&w=600&q=80"
         ],
         "province": {
-            "ar": "إقليم كامبانيا - تقع جنوب البلاد وتطل على الساحل وبركان فيزوف.",
+            "ar": "Ø¥Ù‚Ù„ÙŠÙ… ÙƒØ§Ù…Ø¨Ø§Ù†ÙŠØ§ - ØªÙ‚Ø¹ Ø¬Ù†ÙˆØ¨ Ø§Ù„Ø¨Ù„Ø§Ø¯ ÙˆØªØ·Ù„ Ø¹Ù„Ù‰ Ø§Ù„Ø³Ø§Ø­Ù„ ÙˆØ¨Ø±ÙƒØ§Ù† ÙÙŠØ²ÙˆÙ.",
             "en": "Campania Region - Southern coastal city overlooking Mount Vesuvius."
         },
         "landmarks": {
-            "ar": "المركز التاريخي القديم، ومدينة بومبي الأثرية المجاورة.",
+            "ar": "Ø§Ù„Ù…Ø±ÙƒØ² Ø§Ù„ØªØ§Ø±ÙŠØ®ÙŠ Ø§Ù„Ù‚Ø¯ÙŠÙ…ØŒ ÙˆÙ…Ø¯ÙŠÙ†Ø© Ø¨ÙˆÙ…Ø¨ÙŠ Ø§Ù„Ø£Ø«Ø±ÙŠØ© Ø§Ù„Ù…Ø¬Ø§ÙˆØ±Ø©.",
             "en": "Spaccanapoli and the ancient ruins of Pompeii."
         },
         "food": {
-            "ar": "بيتزا مارغريتا النابولية الأصلية في L'Antica Pizzeria da Michele.",
+            "ar": "Ø¨ÙŠØªØ²Ø§ Ù…Ø§Ø±ØºØ±ÙŠØªØ§ Ø§Ù„Ù†Ø§Ø¨ÙˆÙ„ÙŠØ© Ø§Ù„Ø£ØµÙ„ÙŠØ© ÙÙŠ L'Antica Pizzeria da Michele.",
             "en": "Original Neapolitan Pizza at L'Antica Pizzeria da Michele."
         },
         "science": {
-            "ar": "تحتوي نابولي على شبكة مدن وأنفاق كاملة تحت الأرض منذ العهد الروماني.",
+            "ar": "ØªØ­ØªÙˆÙŠ Ù†Ø§Ø¨ÙˆÙ„ÙŠ Ø¹Ù„Ù‰ Ø´Ø¨ÙƒØ© Ù…Ø¯Ù† ÙˆØ£Ù†ÙØ§Ù‚ ÙƒØ§Ù…Ù„Ø© ØªØ­Øª Ø§Ù„Ø£Ø±Ø¶ Ù…Ù†Ø° Ø§Ù„Ø¹Ù‡Ø¯ Ø§Ù„Ø±ÙˆÙ…Ø§Ù†ÙŠ.",
             "en": "Home to a massive ancient underground city network."
         },
         "yt": {
@@ -278,13 +278,13 @@ const fallbackData = [
         },
         "station": {"name": "Napoli Centrale", "lat": 40.8530, "lng": 14.2705},
         "activities": [
-            {"name": {"ar": "رحلة استكشافية ليوم كامل إلى مدينة بومبي الغامضة", "en": "Full-day excursion to the ruins of Pompeii"}, "price": "28€"}
+            {"name": {"ar": "Ø±Ø­Ù„Ø© Ø§Ø³ØªÙƒØ´Ø§ÙÙŠØ© Ù„ÙŠÙˆÙ… ÙƒØ§Ù…Ù„ Ø¥Ù„Ù‰ Ù…Ø¯ÙŠÙ†Ø© Ø¨ÙˆÙ…Ø¨ÙŠ Ø§Ù„ØºØ§Ù…Ø¶Ø©", "en": "Full-day excursion to the ruins of Pompeii"}, "price": "28â‚¬"}
         ],
         "hotels2": [
-            {"name": "Hotel Zara", "lat": 40.8542, "lng": 14.2711, "price": "48€", "yt": "https://www.youtube.com/results?search_query=Hotel+Zara+Naples"}
+            {"name": "Hotel Zara", "lat": 40.8542, "lng": 14.2711, "price": "48â‚¬", "yt": "https://www.youtube.com/results?search_query=Hotel+Zara+Naples"}
         ],
         "hotels3": [
-            {"name": "Eurostars Excelsior", "lat": 40.8322, "lng": 14.2504, "price": "135€", "yt": "https://www.youtube.com/results?search_query=Eurostars+Excelsior+Naples"}
+            {"name": "Eurostars Excelsior", "lat": 40.8322, "lng": 14.2504, "price": "135â‚¬", "yt": "https://www.youtube.com/results?search_query=Eurostars+Excelsior+Naples"}
         ]
     }
 ];
@@ -348,9 +348,9 @@ async function loadData() {
         const response = await fetch('data.json');
         if (!response.ok) throw new Error('Failed to load data.json');
         citiesData = await response.json();
-        console.log('✅ Loaded data from data.json');
+        console.log('âœ… Loaded data from data.json');
     } catch (err) {
-        console.warn('⚠️ Could not fetch data.json, using fallback data. Error:', err.message);
+        console.warn('âš ï¸ Could not fetch data.json, using fallback data. Error:', err.message);
         citiesData = fallbackData;
     }
     initMap();
@@ -390,7 +390,7 @@ function setMapLayer() {
     let layerUrl = currentTheme === 'dark'
         ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
         : 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    currentTileLayer = L.tileLayer(layerUrl, { attribution: '© OpenStreetMap' }).addTo(map);
+    currentTileLayer = L.tileLayer(layerUrl, { attribution: 'Â© OpenStreetMap' }).addTo(map);
 }
 
 function toggleMapTheme() {
@@ -448,7 +448,7 @@ function applyLanguageStrings() {
     document.getElementById('btnFreeSearch').querySelector('.btn-text').innerHTML = `<i class="fa-solid fa-magnifying-glass"></i>`;
     document.getElementById('btnResetMap').innerHTML = `<i class="fa-solid fa-rotate-right"></i> ${tr.btnReset}`;
     document.getElementById('freeSearchInput').placeholder = tr.placeholder;
-    document.getElementById('btnLangText').innerText = currentLang === 'ar' ? 'English' : 'العربية';
+    document.getElementById('btnLangText').innerText = currentLang === 'ar' ? 'English' : 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©';
     document.getElementById('btnThemeText').innerText = currentTheme === 'dark' ? uiTranslations[currentLang].themeLight : uiTranslations[currentLang].themeDark;
 
     document.getElementById('titleGeo').innerText = tr.titleGeo;
@@ -483,7 +483,7 @@ function selectCity(cityId) {
     updateCarousel();
 
     document.getElementById('cardTitle').innerText = city.name[currentLang];
-    document.getElementById('cardScience').innerText = `🔬 ${city.science[currentLang]}`;
+    document.getElementById('cardScience').innerText = `ðŸ”¬ ${city.science[currentLang]}`;
     document.getElementById('cardProvince').innerText = city.province[currentLang];
     document.getElementById('cardLandmarks').innerText = city.landmarks[currentLang];
     document.getElementById('cardFood').innerText = city.food[currentLang];
@@ -511,7 +511,7 @@ function selectCity(cityId) {
         const h2Icon = L.divIcon({ className: 'custom-map-marker marker-hotel2', html: '<i class="fa-solid fa-hotel"></i>', iconSize: [30, 30] });
         const hMarker = L.marker([hotel.lat, hotel.lng], { icon: h2Icon })
                          .addTo(map)
-                         .bindPopup(`<b>${hotel.name} (2★)</b><br>Price: ${hotel.price}`);
+                         .bindPopup(`<b>${hotel.name} (2â˜…)</b><br>Price: ${hotel.price}`);
         dynamicSubMarkers.push(hMarker);
 
         const row = document.createElement('div');
@@ -526,7 +526,7 @@ function selectCity(cityId) {
         const h3Icon = L.divIcon({ className: 'custom-map-marker marker-hotel3', html: '<i class="fa-solid fa-building"></i>', iconSize: [30, 30] });
         const hMarker = L.marker([hotel.lat, hotel.lng], { icon: h3Icon })
                          .addTo(map)
-                         .bindPopup(`<b>${hotel.name} (3★)</b><br>Price: ${hotel.price}`);
+                         .bindPopup(`<b>${hotel.name} (3â˜…)</b><br>Price: ${hotel.price}`);
         dynamicSubMarkers.push(hMarker);
 
         const row = document.createElement('div');
@@ -610,13 +610,13 @@ function calculateRoute() {
                 document.querySelector('.transport-type').innerHTML = `<i class="fa-solid ${modeIcon}"></i> ${modeLabel}`;
 
                 if (currentLang === 'ar') {
-                    document.getElementById('routeDistance').innerHTML = `📏 <b>المسافة:</b> ${distanceKm} كم`;
-                    document.getElementById('routeDuration').innerHTML = `⏱️ <b>المدة:</b> ${durationHr} ساعة`;
+                    document.getElementById('routeDistance').innerHTML = `ðŸ“ <b>Ø§Ù„Ù…Ø³Ø§ÙØ©:</b> ${distanceKm} ÙƒÙ…`;
+                    document.getElementById('routeDuration').innerHTML = `â±ï¸ <b>Ø§Ù„Ù…Ø¯Ø©:</b> ${durationHr} Ø³Ø§Ø¹Ø©`;
                 } else {
-                    document.getElementById('routeDistance').innerHTML = `📏 <b>Distance:</b> ${distanceKm} km`;
-                    document.getElementById('routeDuration').innerHTML = `⏱️ <b>Duration:</b> ${durationHr} hours`;
+                    document.getElementById('routeDistance').innerHTML = `ðŸ“ <b>Distance:</b> ${distanceKm} km`;
+                    document.getElementById('routeDuration').innerHTML = `â±ï¸ <b>Duration:</b> ${durationHr} hours`;
                 }
-                document.getElementById('routePrice').innerText = `${estimatedPrice} €`;
+                document.getElementById('routePrice').innerText = `${estimatedPrice} â‚¬`;
                 resultsDiv.style.display = 'flex';
 
                 selectCity(toId);
@@ -697,7 +697,7 @@ function getUserLocation() {
             });
             userLocationMarker = L.marker([lat, lng], { icon: userIcon })
                 .addTo(map)
-                .bindPopup(currentLang === 'ar' ? '<b>موقعك الحالي</b>' : '<b>Your Location</b>')
+                .bindPopup(currentLang === 'ar' ? '<b>Ù…ÙˆÙ‚Ø¹Ùƒ Ø§Ù„Ø­Ø§Ù„ÙŠ</b>' : '<b>Your Location</b>')
                 .openPopup();
 
             map.flyTo([lat, lng], 14, { animate: true, duration: 1.5 });
