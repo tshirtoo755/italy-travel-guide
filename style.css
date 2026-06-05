@@ -46,6 +46,7 @@ body.dark-theme {
     --info-text: #8ab4f8;
 }
 
+html { height: 100%; }
 * { 
     box-sizing: border-box; 
     margin: 0; 
@@ -56,7 +57,7 @@ body.dark-theme {
 body { 
     background: var(--bg-primary); 
     color: var(--text-primary); 
-    min-height: 100vh; 
+    height: 100vh; min-height: 100vh; 
     overflow: hidden; 
     transition: background 0.3s, color 0.3s; 
 }
@@ -66,6 +67,14 @@ body {
     grid-template-columns: 420px 1fr; 
     height: 100vh; 
     position: relative; 
+}
+
+#liveMap { 
+    width: 100%; 
+    height: 100vh; 
+    background: #e8eaed; 
+    position: relative; 
+    z-index: 1; 
 }
 
 @media (max-width: 992px) {
@@ -79,9 +88,7 @@ body {
         border-left: none !important; 
         border-bottom: 3px solid var(--italy-green); 
     }
-    #liveMap { 
-        height: calc(100vh - 380px) !important; 
-    }
+    
     .info-card { 
         width: calc(100% - 40px) !important; 
         left: 20px !important; 
@@ -736,4 +743,219 @@ html[dir="ltr"] .yt-link {
     font-weight: 500;
     color: var(--text-primary);
     margin: 12px 16px;
+}
+
+
+/* Transport Section Styles */
+.transport-section {
+    animation: fadeIn 0.4s ease;
+}
+
+.transport-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.transport-tab {
+    flex: 1;
+    padding: 10px 14px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.transport-tab:hover {
+    background: rgba(0, 146, 70, 0.08);
+    border-color: var(--italy-green);
+    color: var(--italy-green);
+}
+
+.transport-tab.active {
+    background: var(--italy-green);
+    border-color: var(--italy-green);
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 146, 70, 0.3);
+}
+
+.month-selector {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.month-btn {
+    flex: 1;
+    padding: 8px 12px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.month-btn:hover {
+    background: rgba(26, 115, 232, 0.08);
+    border-color: #1a73e8;
+    color: #1a73e8;
+}
+
+.month-btn.active {
+    background: #1a73e8;
+    border-color: #1a73e8;
+    color: white;
+    box-shadow: 0 2px 8px rgba(26, 115, 232, 0.3);
+}
+
+.transport-info-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: 14px;
+    box-shadow: var(--shadow-sm);
+}
+
+.transport-price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.transport-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.transport-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--italy-red);
+}
+
+.transport-departures {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.departure-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+.dep-chip {
+    background: rgba(0, 146, 70, 0.1);
+    color: var(--italy-green);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 146, 70, 0.2);
+    transition: all 0.2s;
+}
+
+.dep-chip:hover {
+    background: var(--italy-green);
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* City Transport Info */
+.transport-city-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.tc-tab {
+    flex: 1;
+    padding: 8px 12px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.tc-tab:hover {
+    background: rgba(0, 146, 70, 0.08);
+    border-color: var(--italy-green);
+    color: var(--italy-green);
+}
+
+.tc-tab.active {
+    background: var(--italy-green);
+    border-color: var(--italy-green);
+    color: white;
+}
+
+.city-transport-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.transport-detail-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.transport-detail-row:last-child {
+    border-bottom: none;
+}
+
+.transport-times {
+    font-size: 12px;
+    color: var(--text-muted);
+    flex: 1;
+}
+
+/* Hotel distance styling */
+.data-row .hotel-distance {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.data-row .hotel-distance i {
+    color: var(--italy-green);
+}
+
+html[dir="ltr"] .dep-chip,
+html[dir="ltr"] .transport-tab,
+html[dir="ltr"] .tc-tab,
+html[dir="ltr"] .month-btn {
+    direction: ltr;
 }
