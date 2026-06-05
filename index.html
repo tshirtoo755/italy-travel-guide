@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="appHtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إيطاليا التفاعلية - دليل السفر والملاحة الذكية 2026</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<!-- Toast Notifications Container -->
+<div class="toast-container" id="toastContainer"></div>
+
+<div class="app-container">
+    <div class="sidebar">
+        <div class="brand-header">
+            <h1 id="txtMainTitle">إيطاليا التفاعلية</h1>
+            <p id="txtSubTitle">دليل السفر والملاحة الذكية 2026</p>
+        </div>
+
+        <div class="control-group">
+            <h3 id="txtSectionNav">تخطيط الرحلة والمسارات</h3>
+            <div class="search-grid">
+                <div>
+                    <label id="lblFrom" style="font-size:12px; font-weight:600; display:block; margin-bottom:6px; color:var(--text-muted);">من:</label>
+                    <select id="searchFrom">
+                        <option value="rome">روما</option>
+                        <option value="milan">ميلان</option>
+                        <option value="florence">فلورنسا</option>
+                        <option value="venice">البندقية</option>
+                        <option value="naples">نابولي</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="lblTo" style="font-size:12px; font-weight:600; display:block; margin-bottom:6px; color:var(--text-muted);">إلى:</label>
+                    <select id="searchTo">
+                        <option value="milan">ميلان</option>
+                        <option value="rome">روما</option>
+                        <option value="florence">فلورنسا</option>
+                        <option value="venice">البندقية</option>
+                        <option value="naples">نابولي</option>
+                    </select>
+                </div>
+            </div>
+            <div style="margin-bottom:12px;">
+                <label id="lblMode" style="font-size:12px; font-weight:600; display:block; margin-bottom:6px; color:var(--text-muted);">وسيلة التنقل:</label>
+                <select id="transportMode" style="width:100%; padding:12px 14px; border-radius:8px; border:1px solid var(--border-color); font-weight:500; background:var(--bg-secondary); color:var(--text-primary); font-size:14px; cursor:pointer;">
+                    <option value="driving-car">🚗 سيارة</option>
+                    <option value="foot-walking">🚶 مشي</option>
+                    <option value="cycling-regular">🚲 دراجة</option>
+                </select>
+            </div>
+            <button class="btn-search" onclick="calculateRoute()" id="btnRouteSearch">
+                <span class="spinner"></span>
+                <span class="btn-text"><i class="fa-solid fa-route"></i> ارسم المسار واحسب السعر</span>
+            </button>
+
+            <div class="route-results" id="routeResults">
+                <div class="transport-card">
+                    <div class="route-header">
+                        <div class="transport-type"><i class="fa-solid fa-car"></i> <span id="routeModeLabel">مسار القيادة الفعلي</span></div>
+                        <div class="transport-price" id="routePrice">--€</div>
+                    </div>
+                    <div class="route-path-details" id="routeDistance" style="font-size:13px; margin-bottom:6px; color:var(--text-secondary);">--</div>
+                    <div class="route-timetable" id="routeDuration" style="font-size:13px; color:var(--text-secondary);">--</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <h3 id="txtSectionExplore">استكشف المدن والبحث</h3>
+            <div class="city-grid-btn" id="cityButtonsContainer"></div>
+
+            <div class="free-search-box">
+                <input type="text" id="freeSearchInput" placeholder="ابحث عن أي مكان في العالم...">
+                <button class="btn-free-search" onclick="searchFreeLocation()" id="btnFreeSearch">
+                    <span class="spinner"></span>
+                    <span class="btn-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </button>
+            </div>
+            <button class="btn-search" style="background:var(--bg-secondary); color:var(--text-primary); margin-top:12px; font-size:13px; padding:10px; border:1px solid var(--border-color);" onclick="resetMap()" id="btnResetMap">
+                <i class="fa-solid fa-rotate-right"></i> إعادة التعيين
+            </button>
+        </div>
+    </div>
+
+    <div id="liveMap">
+        <div class="top-controls">
+            <button class="control-btn" onclick="getUserLocation()" title="موقعي الحالي">
+                <i class="fa-solid fa-location-crosshairs"></i> <span id="btnGeoText">موقعي</span>
+            </button>
+            <button class="control-btn" onclick="toggleLanguage()">
+                <i class="fa-solid fa-language"></i> <span id="btnLangText">English</span>
+            </button>
+            <button class="control-btn" onclick="toggleMapTheme()">
+                <i class="fa-solid fa-moon"></i> <span id="btnThemeText">مظهر ليلي</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="info-card" id="infoCard">
+        <button class="info-card-close" onclick="closeInfoCard()" title="إغلاق">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="carousel-container">
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+            <img id="imgSlide0" class="carousel-slide active" src="" alt="Slide 1">
+            <img id="imgSlide1" class="carousel-slide" src="" alt="Slide 2">
+            <img id="imgSlide2" class="carousel-slide" src="" alt="Slide 3">
+        </div>
+
+        <h2 id="cardTitle" style="font-size:24px; font-weight:700; margin-bottom:4px; color:var(--text-primary);"></h2>
+        <p id="cardScience" style="font-style:italic; font-size:12px; color:var(--text-muted); margin-bottom:14px;"></p>
+
+        <div class="info-grid">
+            <div class="info-item">
+                <span id="titleGeo">📍 الوصف الجغرافي</span>
+                <span id="cardProvince" style="color:var(--text-secondary); line-height:1.6;"></span>
+            </div>
+            <div class="info-item">
+                <a id="yt-landmark" class="yt-link" target="_blank" href="#">
+                    <i class="fa-brands fa-youtube"></i> YouTube
+                </a>
+                <span id="titleLandmarks">🏛️ أهم المعالم</span>
+                <span id="cardLandmarks" style="color:var(--text-secondary); line-height:1.6;"></span>
+            </div>
+
+            <div class="info-item section-title">
+                <span id="titleFoodHeader">🍕 المطاعم والمطبخ المحلي</span>
+            </div>
+            <div class="info-item">
+                <a id="yt-food" class="yt-link" target="_blank" href="#">
+                    <i class="fa-brands fa-youtube"></i> YouTube
+                </a>
+                <span id="titleFoodBody">🍽️ الوجبة المقترحة</span>
+                <span id="cardFood" style="color:var(--text-secondary); line-height:1.6;"></span>
+            </div>
+
+            <div class="info-item section-title">
+                <span id="titleActivities">🛶 الأنشطة والتجارب</span>
+            </div>
+            <div id="cardActivitiesContainer" class="list-container"></div>
+
+            <div class="info-item section-title">
+                <span id="titleHotels2">🏨 فنادق اقتصادية (2 نجوم)</span>
+            </div>
+            <div id="cardHotels2Container" class="list-container"></div>
+
+            <div class="info-item section-title">
+                <span id="titleHotels3">🏨 فنادق متميزة (3 نجوم)</span>
+            </div>
+            <div id="cardHotels3Container" class="list-container"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

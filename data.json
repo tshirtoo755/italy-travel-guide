@@ -1,0 +1,332 @@
+[
+  {
+    "id": "rome",
+    "name": {
+      "ar": "روما",
+      "en": "Rome"
+    },
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "images": [
+      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1529260839332-3d744c5a59bb?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=600&q=80"
+    ],
+    "province": {
+      "ar": "إقليم لاتسيو - عاصمة إيطاليا التاريخية على ضفاف نهر التيبر.",
+      "en": "Lazio Region - Italy's historic capital on the Tiber River."
+    },
+    "landmarks": {
+      "ar": "الكولوسيوم، نافورة تريفي، ودولة الفاتيكان.",
+      "en": "The Colosseum, Trevi Fountain, and Vatican City."
+    },
+    "food": {
+      "ar": "مكرونة كاربونارا الأصلية في Osteria da Fortunata.",
+      "en": "Authentic Pasta Carbonara at Osteria da Fortunata."
+    },
+    "science": {
+      "ar": "تضم روما أقدم أنظمة قنوات المياه الممتدة منذ العهد الروماني.",
+      "en": "Rome features ancient active underground aqueduct systems."
+    },
+    "yt": {
+      "landmark": "https://www.youtube.com/results?search_query=Rome+Colosseum+Guide",
+      "food": "https://www.youtube.com/results?search_query=Best+Carbonara+in+Rome"
+    },
+    "station": {
+      "name": "Roma Termini",
+      "lat": 41.9009,
+      "lng": 12.502
+    },
+    "activities": [
+      {
+        "name": {
+          "ar": "جولة إرشادية داخل الكولوسيوم والممرات السفلية",
+          "en": "Guided tour inside the Colosseum tunnels"
+        },
+        "price": "35€"
+      }
+    ],
+    "hotels2": [
+      {
+        "name": "Hotel Termini",
+        "lat": 41.9015,
+        "lng": 12.5035,
+        "price": "65€",
+        "yt": "https://www.youtube.com/results?search_query=Hotel+Termini+Rome"
+      }
+    ],
+    "hotels3": [
+      {
+        "name": "IQ Hotel Roma",
+        "lat": 41.901,
+        "lng": 12.4938,
+        "price": "140€",
+        "yt": "https://www.youtube.com/results?search_query=IQ+Hotel+Roma"
+      }
+    ]
+  },
+  {
+    "id": "milan",
+    "name": {
+      "ar": "ميلان",
+      "en": "Milan"
+    },
+    "lat": 45.4642,
+    "lng": 9.19,
+    "images": [
+      "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1608914371941-2df44005cf39?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1543837173-6c26bc89937b?auto=format&fit=crop&w=600&q=80"
+    ],
+    "province": {
+      "ar": "إقليم لومبارديا - عاصمة الموضة والمال في شمال إيطاليا.",
+      "en": "Lombardy Region - The capital of fashion and finance in northern Italy."
+    },
+    "landmarks": {
+      "ar": "كاتدرائية ميلانو (Duomo) ورواق غاليريا الشهير.",
+      "en": "Duomo di Milano and Galleria Vittorio Emanuele II."
+    },
+    "food": {
+      "ar": "ريزوتو الزعفران الميلاني الأصيل في Trattoria Milanese.",
+      "en": "Traditional Saffron Risotto at Trattoria Milanese."
+    },
+    "science": {
+      "ar": "تحتوي على نظام قنوات Navigli المائي الذي صممه ليوناردو دا فينشي.",
+      "en": "Features the Navigli canals engineered by Leonardo da Vinci."
+    },
+    "yt": {
+      "landmark": "https://www.youtube.com/results?search_query=Milan+Duomo+Tour",
+      "food": "https://www.youtube.com/results?search_query=Milanese+Risotto"
+    },
+    "station": {
+      "name": "Milano Centrale",
+      "lat": 45.4858,
+      "lng": 9.2037
+    },
+    "activities": [
+      {
+        "name": {
+          "ar": "صعود أسطح كاتدرائية الدومو البانورامية",
+          "en": "Rooftop walk on Duomo di Milano"
+        },
+        "price": "15€"
+      }
+    ],
+    "hotels2": [
+      {
+        "name": "Hotel Central Station",
+        "lat": 45.4842,
+        "lng": 9.2012,
+        "price": "70€",
+        "yt": "https://www.youtube.com/results?search_query=Hotel+Central+Station+Milan"
+      }
+    ],
+    "hotels3": [
+      {
+        "name": "Starhotels Anderson",
+        "lat": 45.4851,
+        "lng": 9.2051,
+        "price": "125€",
+        "yt": "https://www.youtube.com/results?search_query=Starhotels+Anderson+Milan"
+      }
+    ]
+  },
+  {
+    "id": "florence",
+    "name": {
+      "ar": "فلورنسا",
+      "en": "Florence"
+    },
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "images": [
+      "https://images.unsplash.com/photo-1541300154611-6679b362140a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=600&q=80"
+    ],
+    "province": {
+      "ar": "إقليم توسكانا - مهد عصر النهضة والفنون العالمية بجانب نهر أرنو.",
+      "en": "Tuscany Region - The cradle of the Renaissance by the Arno River."
+    },
+    "landmarks": {
+      "ar": "كاتدرائية سانتا ماريا وجسر بونتي فيكيو الأثري.",
+      "en": "Santa Maria del Fiore and Ponte Vecchio bridge."
+    },
+    "food": {
+      "ar": "شطيرة اللامبريدوتو الشعبية في كشك Da Nerbone التاريخي.",
+      "en": "Legendary Lampredotto sandwich at Da Nerbone."
+    },
+    "science": {
+      "ar": "قبة برونelleschi في كاتدرائيتها هي أكبر قبة بنائية طوبية في العالم.",
+      "en": "Brunelleschi's Dome is the world's largest masonry dome."
+    },
+    "yt": {
+      "landmark": "https://www.youtube.com/results?search_query=Florence+Duomo+Dome",
+      "food": "https://www.youtube.com/results?search_query=Da+Nerbone+Florence"
+    },
+    "station": {
+      "name": "Firenze SMN",
+      "lat": 43.7766,
+      "lng": 11.2479
+    },
+    "activities": [
+      {
+        "name": {
+          "ar": "مشاهدة تمثال داود الأصلي في معرض الأكاديمية",
+          "en": "See Michelangelo's original David statue"
+        },
+        "price": "22€"
+      }
+    ],
+    "hotels2": [
+      {
+        "name": "Hotel Sampaoli",
+        "lat": 43.7791,
+        "lng": 11.2581,
+        "price": "60€",
+        "yt": "https://www.youtube.com/results?search_query=Hotel+Sampaoli+Florence"
+      }
+    ],
+    "hotels3": [
+      {
+        "name": "c-hotels Ambasciatori",
+        "lat": 43.7758,
+        "lng": 11.2465,
+        "price": "115€",
+        "yt": "https://www.youtube.com/results?search_query=C+Hotels+Ambasciatori+Florence"
+      }
+    ]
+  },
+  {
+    "id": "venice",
+    "name": {
+      "ar": "البندقية",
+      "en": "Venice"
+    },
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "images": [
+      "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1512100356131-70234a49c909?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=600&q=80"
+    ],
+    "province": {
+      "ar": "إقليم فينيتو - المدينة المائية العائمة المبنية على 118 جزيرة.",
+      "en": "Veneto Region - The floating city built on 118 small islands."
+    },
+    "landmarks": {
+      "ar": "ساحة سان ماركو، القناة الكبرى، وجسر ريالتو الشهير.",
+      "en": "St. Mark's Square, Grand Canal, and Rialto Bridge."
+    },
+    "food": {
+      "ar": "مقبلات شيكيتي البحرية اللذيذة في Cantina Do Mori الشهير.",
+      "en": "Delicious Cicchetti tapas at Cantina Do Mori."
+    },
+    "science": {
+      "ar": "المدينة ترتكز فوق ملايين الجذوع الخشبية الغاطسة المقاومة للتعفن.",
+      "en": "The entire city rests on ancient rot-proof wooden piles."
+    },
+    "yt": {
+      "landmark": "https://www.youtube.com/results?search_query=Venice+Grand+Canal+Tour",
+      "food": "https://www.youtube.com/results?search_query=Venice+Cicchetti+Food"
+    },
+    "station": {
+      "name": "Venezia Santa Lucia",
+      "lat": 45.4411,
+      "lng": 12.3211
+    },
+    "activities": [
+      {
+        "name": {
+          "ar": "جولة كلاسيكية رومانسية في قارب الجندول",
+          "en": "Romantic Gondola ride across canals"
+        },
+        "price": "33€"
+      }
+    ],
+    "hotels2": [
+      {
+        "name": "Hotel Ungaro",
+        "lat": 45.4851,
+        "lng": 12.239,
+        "price": "55€",
+        "yt": "https://www.youtube.com/results?search_query=Hotel+Ungaro+Venice"
+      }
+    ],
+    "hotels3": [
+      {
+        "name": "Hotel Splendid",
+        "lat": 45.4358,
+        "lng": 12.3372,
+        "price": "160€",
+        "yt": "https://www.youtube.com/results?search_query=Hotel+Splendid+Venice"
+      }
+    ]
+  },
+  {
+    "id": "naples",
+    "name": {
+      "ar": "نابولي",
+      "en": "Naples"
+    },
+    "lat": 40.8518,
+    "lng": 14.2681,
+    "images": [
+      "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1614531189441-df0711910ef6?auto=format&fit=crop&w=600&q=80"
+    ],
+    "province": {
+      "ar": "إقليم كامبانيا - تقع جنوب البلاد وتطل على الساحل وبركان فيزوف.",
+      "en": "Campania Region - Southern coastal city overlooking Mount Vesuvius."
+    },
+    "landmarks": {
+      "ar": "المركز التاريخي القديم، ومدينة بومبي الأثرية المجاورة.",
+      "en": "Spaccanapoli and the ancient ruins of Pompeii."
+    },
+    "food": {
+      "ar": "بيتزا مارغريتا النابولية الأصلية في L'Antica Pizzeria da Michele.",
+      "en": "Original Neapolitan Pizza at L'Antica Pizzeria da Michele."
+    },
+    "science": {
+      "ar": "تحتوي نابولي على شبكة مدن وأنفاق كاملة تحت الأرض منذ العهد الروماني.",
+      "en": "Home to a massive ancient underground city network."
+    },
+    "yt": {
+      "landmark": "https://www.youtube.com/results?search_query=Pompeii+Ruins+Tour",
+      "food": "https://www.youtube.com/results?search_query=Da+Michele+Naples+Pizza"
+    },
+    "station": {
+      "name": "Napoli Centrale",
+      "lat": 40.853,
+      "lng": 14.2705
+    },
+    "activities": [
+      {
+        "name": {
+          "ar": "رحلة استكشافية ليوم كامل إلى مدينة بومبي الغامضة",
+          "en": "Full-day excursion to the ruins of Pompeii"
+        },
+        "price": "28€"
+      }
+    ],
+    "hotels2": [
+      {
+        "name": "Hotel Zara",
+        "lat": 40.8542,
+        "lng": 14.2711,
+        "price": "48€",
+        "yt": "https://www.youtube.com/results?search_query=Hotel+Zara+Naples"
+      }
+    ],
+    "hotels3": [
+      {
+        "name": "Eurostars Excelsior",
+        "lat": 40.8322,
+        "lng": 14.2504,
+        "price": "135€",
+        "yt": "https://www.youtube.com/results?search_query=Eurostars+Excelsior+Naples"
+      }
+    ]
+  }
+]
